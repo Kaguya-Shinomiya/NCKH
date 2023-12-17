@@ -11,5 +11,3 @@
 # Built Visual Studio Code Extensions
 .vsix
 save_model.hdf5
-Data/
-Stock_Symbols/
