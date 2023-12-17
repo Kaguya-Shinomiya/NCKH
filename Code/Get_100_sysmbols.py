@@ -32,8 +32,9 @@ for i in column_data[:]:
         if len(my_list) == 100:
             break
 
-print(my_list)
 
+my_list.insert(0,"")
+print(my_list)
 import pandas as pd
 # Tạo DataFrame từ mảng
 df = pd.DataFrame(my_list, columns=['Column_Name'])
