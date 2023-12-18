@@ -144,7 +144,7 @@ if not os.path.exists(file_path):
   #huấn luyện mô hình
   save_model = "save_model.hdf5"
   best_model = ModelCheckpoint(save_model,monitor='loss',verbose=2,save_best_only=True,mode='auto')
-  model.fit(x_train,y_train,epochs=150,batch_size=50,verbose=2,callbacks=[best_model])
+  model.fit(x_train,y_train,epochs=150,batch_size=52,verbose=2,callbacks=[best_model])
 
 #dữ liệu train
 y_train = sc.inverse_transform(y_train) #giá thực
