@@ -2,6 +2,7 @@ import yfinance as yf
 import pandas as pd
 from datetime import datetime
 
+
 # Lấy ngày hiện tại
 end_date = datetime.today().strftime('%Y-%m-%d')
 
